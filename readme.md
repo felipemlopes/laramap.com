@@ -8,7 +8,7 @@ Feel free to contribute. :smile:
 * Chrome *(latest 2)*
 * Edge *(latest 2)*
 * Firefox *(latest 2)*
-* Internet Explorer 8+
+* Internet Explorer 10+
 * Opera *(latest 2)*
 * Safari *(latest 2)*
 
