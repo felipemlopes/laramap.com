@@ -31,7 +31,7 @@
                         @else
                             <img src="{{ Gravatar::src($user->email) }}" alt="{{ $user->username }}">
                         @endif
-                    </div>s
+                    </div>
                     <div class="info">
                         <div class="title">
                             <p>{{ $user->username }}</p>
