@@ -1,4 +1,5 @@
 var elixir = require('laravel-elixir');
+var gulp = require('gulp');
 
 elixir.config.js.browserify.transformers.push({
     name: 'vueify',
@@ -44,4 +45,14 @@ elixir(function(mix) {
 
         .version(['js/vendor.js', 'css/vendor.css', 'js/app.js', 'css/app.css']);
 
+});
+
+gulp.task('copy:app.css', function () {
+
+    return gulp.src(dirs.src + 'css/app.css')
+        .pipe(plugins.autoprefixer({
+            browsers: ['last 2 versions', 'ie >= 10', '> 1%'],
+            cascade: false
+        }))
+        .pipe(gulp.dest(dirs.dist + 'css'));
 });
