@@ -3,39 +3,36 @@
 namespace App\Listeners\UserRegistered;
 
 use App\Events\UserRegistered;
+use App\Mailer\ListenerMailer;
 use App\User;
 use Illuminate\Queue\InteractsWithQueue;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Support\Facades\Mail;
 
-class SendWelcomeEmail implements ShouldQueue
-{
+class SendWelcomeEmail implements ShouldQueue {
+
     use InteractsWithQueue;
+
+    protected $mailer;
 
     /**
      * Create the event listener.
-     *
      * @return void
      */
-    public function __construct()
+    public function __construct(ListenerMailer $mailer)
     {
-        //
+        $this->mailer = $mailer;
     }
 
     /**
      * Handle the event.
-     *
-     * @param  UserRegistered  $event
+     * @param  UserRegistered $event
      * @return void
      */
     public function handle(UserRegistered $event)
     {
         $user = User::where('id', $event->user->id)->first();
-
-        Mail::send('emails.welcome', ['user' => $user], function ($m) use ($user) {
-            $m->subject('Welcome to Laramap, '.$user->name);
-            $m->from('noreply@laramap.com', 'Laramap.com');
-            $m->to($user->email, $user->name);
-        });
+        $data = ['username' => $user->name];
+        $this->mailer->sendWelcomeEmail($user, $data);
     }
 }
