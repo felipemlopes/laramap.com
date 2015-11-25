@@ -1,4 +1,4 @@
-<h1>Welcome {{ $user['username'] }}</h1>
+<h1>Welcome {{ $username }}</h1>
 <h5>Welcome to Laramap!</h5>
 
 <p>You successfully signed up on <a href="https://laramap.com">Laramap.com</a> =)</p>

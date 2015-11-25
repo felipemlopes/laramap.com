@@ -3,37 +3,34 @@
 namespace App\Listeners\UserSuspended;
 
 use App\Events\UserSuspended;
+use App\Mailer\ListenerMailer;
 use App\User;
 use Illuminate\Queue\InteractsWithQueue;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Support\Facades\Mail;
 
-class SendSuspendedEmail
-{
+class SendSuspendedEmail {
+
+    protected $mailer;
+
     /**
      * Create the event listener.
-     *
      * @return void
      */
-    public function __construct()
+    public function __construct(ListenerMailer $mailer)
     {
-        //
+        $this->mailer = $mailer;
     }
 
     /**
      * Handle the event.
-     *
-     * @param  UserSuspended  $event
+     * @param  UserSuspended $event
      * @return void
      */
     public function handle(UserSuspended $event)
     {
         $user = User::where('id', $event->user->id)->first();
-
-        Mail::send('emails.suspended', ['user' => $user], function ($m) use ($user) {
-            $m->subject('Your account has been suspended');
-            $m->from('noreply@laramap.com', 'Laramap.com');
-            $m->to($user->email, $user->name);
-        });
+        $data = ['username' => $user->name];
+        $this->mailer->sendSuspendedEmail($user, $data);
     }
 }

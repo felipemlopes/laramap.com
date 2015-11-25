@@ -1,4 +1,4 @@
-<h1>Hey, {{ $user['username'] }}</h1>
+<h1>Hey, {{ $username }}</h1>
 <h5>Your account has been suspended</h5>
 
 <p>Your account has been suspended <a href="https://laramap.com">Laramap.com</a>.</p>

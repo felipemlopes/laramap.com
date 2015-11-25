@@ -4,3 +4,9 @@ Homestead.yaml
 Homestead.json
 .env
 /storage
+.idea/
+_ide_helper.php
+.env.example
+.idea/blade.xml
+.idea/vcs.xml
+.phpcomplete_extended/

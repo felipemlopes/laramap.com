@@ -1,4 +1,4 @@
-<h1>Hey, {{ $user['username'] }}</h1>
+<h1>Hey, {{ $username }}</h1>
 <h5>You got banned on Laramap!</h5>
 
 <p>You got banned on <a href="https://laramap.com">Laramap.com</a>.</p>

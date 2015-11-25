@@ -1,4 +1,4 @@
-<h1>Hey, {{ $user['username'] }}</h1>
+<h1>Hey, {{ $username }}</h1>
 <h5>Thank you for sponsoring!</h5>
 
 <p>You are now listed on the <a href="https://laramap.com/sponsor">Sponsors-Page</a> =)</p>
