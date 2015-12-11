@@ -29,6 +29,5 @@
   },
   "_source": "git://github.com/sgruhier/typeahead-addresspicker.git",
   "_target": "~0.1.4",
-  "_originalSource": "typeahead-addresspicker",
-  "_direct": true
+  "_originalSource": "typeahead-addresspicker"
 }

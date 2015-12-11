@@ -10,3 +10,4 @@ _ide_helper.php
 .idea/blade.xml
 .idea/vcs.xml
 .phpcomplete_extended/
+composer.lock

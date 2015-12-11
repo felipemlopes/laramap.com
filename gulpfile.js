@@ -17,13 +17,9 @@ elixir(function(mix) {
             'vendor/angular.js',
             'vendor/jcs-auto-validate.js',
             'vendor/vue.js',
-            //'vendor/typeahead.jquery.js',
-            //'vendor/typeahead.bundle.js',
-            //'vendor/typeahead-addresspicker',
             'vendor/angular-google-maps_dev_mapped.js',
             'vendor/bootstrap-notify.js',
             'vendor/autocomplete.js',
-            //'vendor/highlight.js',
             'vendor/html2canvas.js'
         ], 'public/js/vendor.js')
         .styles([
@@ -44,7 +40,6 @@ elixir(function(mix) {
         ], 'public/js/app.js')
 
         .version(['js/vendor.js', 'css/vendor.css', 'js/app.js', 'css/app.css']);
-
 });
 
 gulp.task('copy:app.css', function () {

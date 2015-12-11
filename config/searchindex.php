@@ -5,7 +5,7 @@ return
         /*
          * The engine behind the search index. Currently the only valid option is elasticsearch
          */
-        'engine' => 'elasticsearch',
+        'engine' => 'algolia',
 
         'elasticsearch' =>
             [

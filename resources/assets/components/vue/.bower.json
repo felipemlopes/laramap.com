@@ -9,22 +9,24 @@
   "ignore": [
     ".*",
     "examples",
+    "build",
+    "perf",
     "test",
     "grunt",
     "gruntfile.js",
     "*.json",
-    "*.md"
+    "*.md",
+    "*.yml"
   ],
-  "homepage": "https://github.com/yyx990803/vue",
-  "version": "0.12.10",
-  "_release": "0.12.10",
+  "homepage": "https://github.com/vuejs/vue",
+  "version": "0.12.16",
+  "_release": "0.12.16",
   "_resolution": {
     "type": "version",
-    "tag": "0.12.10",
-    "commit": "923be291dfcc65f8fd90f1832b17fd5d0fdea488"
+    "tag": "0.12.16",
+    "commit": "d53c40ab698942c891441d16bce1374982842d60"
   },
-  "_source": "git://github.com/yyx990803/vue.git",
+  "_source": "git://github.com/vuejs/vue.git",
   "_target": "~0.12.10",
-  "_originalSource": "vue",
-  "_direct": true
+  "_originalSource": "vue"
 }

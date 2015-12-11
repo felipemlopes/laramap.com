@@ -10,6 +10,5 @@
   },
   "_source": "git://github.com/isagalaev/highlight.js.git",
   "_target": "~7.0.1",
-  "_originalSource": "highlight",
-  "_direct": true
+  "_originalSource": "highlight"
 }
