@@ -107,7 +107,7 @@
 
                 <hr>
                 <div class="col-md-4">
-                    <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?zoneid=1673&serve=C6AILKT&placement=laramapcom" id="_carbonads_js"></script>
+
                 </div>
             </div>
         </div>
