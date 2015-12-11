@@ -9,7 +9,7 @@
 
                         <div class="col-lg-6 col-md-4">
                             <div class="col-md-10">
-                                <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?zoneid=1673&serve=C6AILKT&placement=laramapcom" id="_carbonads_js"></script>
+
                             </div>
                             <h4>Links:</h4>
 
