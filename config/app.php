@@ -149,7 +149,7 @@ return [
          */
         AlgoliaSearch\Laravel\AlgoliaServiceProvider::class,
         Collective\Html\HtmlServiceProvider::class,
-        Laracasts\Utilities\JavaScript\JavascriptServiceProvider::class,
+//        Laracasts\Utilities\JavaScript\JavascriptServiceProvider::class,
         Laravel\Socialite\SocialiteServiceProvider::class,
         Thujohn\Twitter\TwitterServiceProvider::class,
         UxWeb\SweetAlert\SweetAlertServiceProvider::class,
