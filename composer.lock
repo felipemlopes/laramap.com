@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "ddadc79349aad935c92b48ea5a884381",
-    "content-hash": "aef585f842ebbc762d8fe844313b48e3",
+    "hash": "125d737b828b52936af4b6b9187fb957",
+    "content-hash": "5356a29889a7629df5c25e44de1ceeac",
     "packages": [
         {
             "name": "alfredo-ramos/parsedown-extra-laravel",
@@ -256,87 +256,6 @@
             "time": "2015-12-10 20:22:06"
         },
         {
-            "name": "asm89/stack-cors",
-            "version": "0.2.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/asm89/stack-cors.git",
-                "reference": "2d77e77251a434e4527315313a672f5801b29fa2"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/asm89/stack-cors/zipball/2d77e77251a434e4527315313a672f5801b29fa2",
-                "reference": "2d77e77251a434e4527315313a672f5801b29fa2",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.2",
-                "symfony/http-foundation": "~2.1",
-                "symfony/http-kernel": "~2.1"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-0": {
-                    "Asm89\\Stack": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Alexander",
-                    "email": "iam.asm89@gmail.com"
-                }
-            ],
-            "description": "Cross-origin resource sharing library and stack middleware",
-            "homepage": "https://github.com/asm89/stack-cors",
-            "keywords": [
-                "cors",
-                "stack"
-            ],
-            "time": "2014-07-28 07:22:35"
-        },
-        {
-            "name": "awjudd/feed-reader",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/awjudd/l4-feed-reader.git",
-                "reference": "edb0c61b824436e575f3a5bf630ab28e36d76c16"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/awjudd/l4-feed-reader/zipball/edb0c61b824436e575f3a5bf630ab28e36d76c16",
-                "reference": "edb0c61b824436e575f3a5bf630ab28e36d76c16",
-                "shasum": ""
-            },
-            "require": {
-                "illuminate/support": "~5",
-                "php": ">=5.4.0",
-                "simplepie/simplepie": "dev-master"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-0": {
-                    "Awjudd\\FeedReader": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Andrew Judd",
-                    "email": "contact@andrewjudd.ca"
-                }
-            ],
-            "description": "A simple RSS feed reader for Laravel 5",
-            "time": "2015-03-23 02:57:42"
-        },
-        {
             "name": "backup-manager/backup-manager",
             "version": "1.0.8",
             "source": {
@@ -459,109 +378,6 @@
             "time": "2015-12-07 09:55:51"
         },
         {
-            "name": "barryvdh/laravel-cors",
-            "version": "v0.7.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/barryvdh/laravel-cors.git",
-                "reference": "f6f389f06d89d73536cf7ffda58850d4d09bdc4d"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/barryvdh/laravel-cors/zipball/f6f389f06d89d73536cf7ffda58850d4d09bdc4d",
-                "reference": "f6f389f06d89d73536cf7ffda58850d4d09bdc4d",
-                "shasum": ""
-            },
-            "require": {
-                "asm89/stack-cors": "0.2.x",
-                "illuminate/support": "~5.0.14|5.1.x",
-                "php": ">=5.4.0"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "0.7-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Barryvdh\\Cors\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Barry vd. Heuvel",
-                    "email": "barryvdh@gmail.com"
-                }
-            ],
-            "description": "Adds CORS (Cross-Origin Resource Sharing) headers support in your Laravel application",
-            "keywords": [
-                "api",
-                "cors",
-                "crossdomain",
-                "laravel"
-            ],
-            "time": "2015-09-09 16:56:18"
-        },
-        {
-            "name": "barryvdh/laravel-debugbar",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/barryvdh/laravel-debugbar.git",
-                "reference": "866806cbd410e7d098642daa426fc0c131b9ee39"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/barryvdh/laravel-debugbar/zipball/866806cbd410e7d098642daa426fc0c131b9ee39",
-                "reference": "866806cbd410e7d098642daa426fc0c131b9ee39",
-                "shasum": ""
-            },
-            "require": {
-                "illuminate/support": "~5.0.17|5.1.*|5.2.*",
-                "maximebf/debugbar": "~1.11.0",
-                "php": ">=5.4.0",
-                "symfony/finder": "~2.6|~3.0"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "2.2-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Barryvdh\\Debugbar\\": "src/"
-                },
-                "files": [
-                    "src/helpers.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Barry vd. Heuvel",
-                    "email": "barryvdh@gmail.com"
-                }
-            ],
-            "description": "PHP Debugbar integration for Laravel",
-            "keywords": [
-                "debug",
-                "debugbar",
-                "laravel",
-                "profiler",
-                "webprofiler"
-            ],
-            "time": "2015-12-10 16:00:40"
-        },
-        {
             "name": "chrisbjr/api-guard",
             "version": "dev-master",
             "source": {
@@ -608,29 +424,29 @@
         },
         {
             "name": "classpreloader/classpreloader",
-            "version": "3.0.0",
+            "version": "2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ClassPreloader/ClassPreloader.git",
-                "reference": "9b10b913c2bdf90c3d2e0d726b454fb7f77c552a"
+                "reference": "8c3c14b10309e3b40bce833913a6c0c0b8c8f962"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ClassPreloader/ClassPreloader/zipball/9b10b913c2bdf90c3d2e0d726b454fb7f77c552a",
-                "reference": "9b10b913c2bdf90c3d2e0d726b454fb7f77c552a",
+                "url": "https://api.github.com/repos/ClassPreloader/ClassPreloader/zipball/8c3c14b10309e3b40bce833913a6c0c0b8c8f962",
+                "reference": "8c3c14b10309e3b40bce833913a6c0c0b8c8f962",
                 "shasum": ""
             },
             "require": {
-                "nikic/php-parser": "^1.0|^2.0",
+                "nikic/php-parser": "~1.3",
                 "php": ">=5.5.9"
             },
             "require-dev": {
-                "phpunit/phpunit": "^4.8|^5.0"
+                "phpunit/phpunit": "~4.0"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.0-dev"
+                    "dev-master": "2.0-dev"
                 }
             },
             "autoload": {
@@ -658,7 +474,7 @@
                 "class",
                 "preload"
             ],
-            "time": "2015-11-09 22:51:51"
+            "time": "2015-06-28 21:39:13"
         },
         {
             "name": "cocur/slugify",
@@ -2689,20 +2505,20 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v5.1.26",
+            "version": "v5.1.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "be7fbb60376bd61f07e9c637473e5b2cf7eebe5c"
+                "reference": "e24a87cee3d12d42bc1b9ffa2821ef2ce22ef553"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/be7fbb60376bd61f07e9c637473e5b2cf7eebe5c",
-                "reference": "be7fbb60376bd61f07e9c637473e5b2cf7eebe5c",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/e24a87cee3d12d42bc1b9ffa2821ef2ce22ef553",
+                "reference": "e24a87cee3d12d42bc1b9ffa2821ef2ce22ef553",
                 "shasum": ""
             },
             "require": {
-                "classpreloader/classpreloader": "~2.0|~3.0",
+                "classpreloader/classpreloader": "~2.0",
                 "danielstjules/stringy": "~1.8",
                 "doctrine/inflector": "~1.0",
                 "ext-mbstring": "*",
@@ -2712,9 +2528,8 @@
                 "monolog/monolog": "~1.11",
                 "mtdowling/cron-expression": "~1.0",
                 "nesbot/carbon": "~1.19",
-                "paragonie/random_compat": "~1.1",
                 "php": ">=5.5.9",
-                "psy/psysh": "0.6.*",
+                "psy/psysh": "~0.5.1",
                 "swiftmailer/swiftmailer": "~5.1",
                 "symfony/console": "2.7.*",
                 "symfony/css-selector": "2.7.*",
@@ -2763,7 +2578,7 @@
             "require-dev": {
                 "aws/aws-sdk-php": "~3.0",
                 "iron-io/iron_mq": "~2.0",
-                "mockery/mockery": "~0.9.2",
+                "mockery/mockery": "~0.9.1",
                 "pda/pheanstalk": "~3.0",
                 "phpunit/phpunit": "~4.0",
                 "predis/predis": "~1.0"
@@ -2772,7 +2587,7 @@
                 "aws/aws-sdk-php": "Required to use the SQS queue driver and SES mail driver (~3.0).",
                 "doctrine/dbal": "Required to rename columns and drop SQLite columns (~2.4).",
                 "fzaninotto/faker": "Required to use the eloquent factory builder (~1.4).",
-                "guzzlehttp/guzzle": "Required to use the Mailgun and Mandrill mail drivers and the ping methods on schedules (~5.3|~6.0).",
+                "guzzlehttp/guzzle": "Required to use the Mailgun and Mandrill mail drivers (~5.3|~6.0).",
                 "iron-io/iron_mq": "Required to use the iron queue driver (~2.0).",
                 "league/flysystem-aws-s3-v3": "Required to use the Flysystem S3 driver (~1.0).",
                 "league/flysystem-rackspace": "Required to use the Flysystem Rackspace driver (~1.0).",
@@ -2814,20 +2629,20 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2015-12-02 21:59:57"
+            "time": "2015-08-30 15:44:09"
         },
         {
             "name": "laravel/socialite",
-            "version": "dev-master",
+            "version": "v2.0.14",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/socialite.git",
-                "reference": "297945170f17298247a4bd2fd5fe1d8a9a277e21"
+                "reference": "b15f4be0ac739405120d74b837af423aa71502d9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/socialite/zipball/297945170f17298247a4bd2fd5fe1d8a9a277e21",
-                "reference": "297945170f17298247a4bd2fd5fe1d8a9a277e21",
+                "url": "https://api.github.com/repos/laravel/socialite/zipball/b15f4be0ac739405120d74b837af423aa71502d9",
+                "reference": "b15f4be0ac739405120d74b837af423aa71502d9",
                 "shasum": ""
             },
             "require": {
@@ -2868,7 +2683,7 @@
                 "laravel",
                 "oauth"
             ],
-            "time": "2015-11-08 18:05:00"
+            "time": "2015-10-16 15:39:46"
         },
         {
             "name": "laravelcollective/html",
@@ -3176,67 +2991,6 @@
                 "twitter"
             ],
             "time": "2015-10-23 04:02:07"
-        },
-        {
-            "name": "maximebf/debugbar",
-            "version": "v1.11.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/maximebf/php-debugbar.git",
-                "reference": "07741d84d39d10f00551c94284cdefcc69703e77"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/maximebf/php-debugbar/zipball/07741d84d39d10f00551c94284cdefcc69703e77",
-                "reference": "07741d84d39d10f00551c94284cdefcc69703e77",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.0",
-                "psr/log": "^1.0",
-                "symfony/var-dumper": "^2.6|^3.0"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^4.0|^5.0"
-            },
-            "suggest": {
-                "kriswallsmith/assetic": "The best way to manage assets",
-                "monolog/monolog": "Log using Monolog",
-                "predis/predis": "Redis storage"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.11-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "DebugBar\\": "src/DebugBar/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Maxime Bouroumeau-Fuseau",
-                    "email": "maxime.bouroumeau@gmail.com",
-                    "homepage": "http://maximebf.com"
-                },
-                {
-                    "name": "Barry vd. Heuvel",
-                    "email": "barryvdh@gmail.com"
-                }
-            ],
-            "description": "Debug bar in the browser for php application",
-            "homepage": "https://github.com/maximebf/php-debugbar",
-            "keywords": [
-                "debug",
-                "debugbar"
-            ],
-            "time": "2015-12-10 09:50:24"
         },
         {
             "name": "mews/purifier",
@@ -3609,38 +3363,32 @@
         },
         {
             "name": "nikic/php-parser",
-            "version": "v2.0.0",
+            "version": "v1.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nikic/PHP-Parser.git",
-                "reference": "c542e5d86a9775abd1021618eb2430278bfc1e01"
+                "reference": "f78af2c9c86107aa1a34cd1dbb5bbe9eeb0d9f51"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/c542e5d86a9775abd1021618eb2430278bfc1e01",
-                "reference": "c542e5d86a9775abd1021618eb2430278bfc1e01",
+                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/f78af2c9c86107aa1a34cd1dbb5bbe9eeb0d9f51",
+                "reference": "f78af2c9c86107aa1a34cd1dbb5bbe9eeb0d9f51",
                 "shasum": ""
             },
             "require": {
                 "ext-tokenizer": "*",
-                "php": ">=5.4"
+                "php": ">=5.3"
             },
-            "require-dev": {
-                "phpunit/phpunit": "~4.0"
-            },
-            "bin": [
-                "bin/php-parse"
-            ],
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.0-dev"
+                    "dev-master": "1.4-dev"
                 }
             },
             "autoload": {
-                "psr-4": {
-                    "PhpParser\\": "lib/PhpParser"
-                }
+                "files": [
+                    "lib/bootstrap.php"
+                ]
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -3656,7 +3404,7 @@
                 "parser",
                 "php"
             ],
-            "time": "2015-12-04 15:28:43"
+            "time": "2015-09-19 14:15:08"
         },
         {
             "name": "notifymehq/contracts",
@@ -4194,54 +3942,6 @@
             "time": "2015-09-06 11:55:57"
         },
         {
-            "name": "paragonie/random_compat",
-            "version": "1.1.4",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/paragonie/random_compat.git",
-                "reference": "d762ee5b099a29044603cd4649851e81aa66cb47"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/paragonie/random_compat/zipball/d762ee5b099a29044603cd4649851e81aa66cb47",
-                "reference": "d762ee5b099a29044603cd4649851e81aa66cb47",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.2.0"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "4.*|5.*"
-            },
-            "suggest": {
-                "ext-libsodium": "Provides a modern crypto API that can be used to generate random bytes."
-            },
-            "type": "library",
-            "autoload": {
-                "files": [
-                    "lib/random.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Paragon Initiative Enterprises",
-                    "email": "security@paragonie.com",
-                    "homepage": "https://paragonie.com"
-                }
-            ],
-            "description": "PHP 5.x polyfill for random_bytes() and random_int() from PHP 7",
-            "keywords": [
-                "csprng",
-                "pseudorandom",
-                "random"
-            ],
-            "time": "2015-12-10 14:48:13"
-        },
-        {
             "name": "pda/pheanstalk",
             "version": "v3.1.0",
             "source": {
@@ -4435,29 +4135,29 @@
         },
         {
             "name": "psy/psysh",
-            "version": "v0.6.1",
+            "version": "v0.5.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bobthecow/psysh.git",
-                "reference": "0f04df0b23663799a8941fae13cd8e6299bde3ed"
+                "reference": "aaf8772ade08b5f0f6830774a5d5c2f800415975"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bobthecow/psysh/zipball/0f04df0b23663799a8941fae13cd8e6299bde3ed",
-                "reference": "0f04df0b23663799a8941fae13cd8e6299bde3ed",
+                "url": "https://api.github.com/repos/bobthecow/psysh/zipball/aaf8772ade08b5f0f6830774a5d5c2f800415975",
+                "reference": "aaf8772ade08b5f0f6830774a5d5c2f800415975",
                 "shasum": ""
             },
             "require": {
                 "dnoegel/php-xdg-base-dir": "0.1",
                 "jakub-onderka/php-console-highlighter": "0.3.*",
-                "nikic/php-parser": "^1.2.1|~2.0",
+                "nikic/php-parser": "^1.2.1",
                 "php": ">=5.3.9",
                 "symfony/console": "~2.3.10|^2.4.2|~3.0",
                 "symfony/var-dumper": "~2.7|~3.0"
             },
             "require-dev": {
                 "fabpot/php-cs-fixer": "~1.5",
-                "phpunit/phpunit": "~3.7|~4.0|~5.0",
+                "phpunit/phpunit": "~3.7|~4.0",
                 "squizlabs/php_codesniffer": "~2.0",
                 "symfony/finder": "~2.1|~3.0"
             },
@@ -4473,15 +4173,15 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-develop": "0.7.x-dev"
+                    "dev-develop": "0.6.x-dev"
                 }
             },
             "autoload": {
                 "files": [
                     "src/Psy/functions.php"
                 ],
-                "psr-4": {
-                    "Psy\\": "src/Psy/"
+                "psr-0": {
+                    "Psy\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -4503,7 +4203,7 @@
                 "interactive",
                 "shell"
             ],
-            "time": "2015-11-12 16:18:56"
+            "time": "2015-07-16 15:26:57"
         },
         {
             "name": "pusher/pusher-php-server",
@@ -4762,60 +4462,6 @@
                 "laravel"
             ],
             "time": "2015-10-03 08:11:47"
-        },
-        {
-            "name": "simplepie/simplepie",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/simplepie/simplepie.git",
-                "reference": "6102a15d768c7d81fe48f7e2f1d8cf9e71e5959f"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/simplepie/simplepie/zipball/6102a15d768c7d81fe48f7e2f1d8cf9e71e5959f",
-                "reference": "6102a15d768c7d81fe48f7e2f1d8cf9e71e5959f",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.2.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-0": {
-                    "SimplePie": "library"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Ryan Parman",
-                    "homepage": "http://ryanparman.com/",
-                    "role": "Creator, alumnus developer"
-                },
-                {
-                    "name": "Geoffrey Sneddon",
-                    "homepage": "http://gsnedders.com/",
-                    "role": "Alumnus developer"
-                },
-                {
-                    "name": "Ryan McCue",
-                    "email": "me@ryanmccue.info",
-                    "homepage": "http://ryanmccue.info/",
-                    "role": "Developer"
-                }
-            ],
-            "description": "A simple Atom/RSS parsing library for PHP",
-            "homepage": "http://simplepie.org/",
-            "keywords": [
-                "atom",
-                "feeds",
-                "rss"
-            ],
-            "time": "2015-09-02 01:14:05"
         },
         {
             "name": "spatie/searchindex",
@@ -7424,18 +7070,15 @@
         "laracasts/utilities": 20,
         "uxweb/sweet-alert": 20,
         "thujohn/twitter": 20,
-        "barryvdh/laravel-debugbar": 20,
         "intervention/image": 20,
         "intervention/imagecache": 20,
         "thomaswelton/laravel-gravatar": 20,
         "roumen/feed": 20,
-        "awjudd/feed-reader": 20,
         "knplabs/github-api": 20,
         "graham-campbell/github": 20,
         "fwartner/curl": 20,
         "fwartner/geo": 20,
         "fwartner/maps": 20,
-        "alfredo-ramos/parsedown-extra-laravel": 20,
         "packagebackup/laravel-reviewable": 20,
         "packagebackup/laravel-reportable": 20,
         "packagebackup/laravel-friendable": 20,
@@ -7457,7 +7100,6 @@
         "roumen/sitemap": 20,
         "notifymehq/laravel": 20,
         "chrisbjr/api-guard": 20,
-        "barryvdh/laravel-cors": 20,
         "laracasts/generators": 20
     },
     "prefer-stable": true,

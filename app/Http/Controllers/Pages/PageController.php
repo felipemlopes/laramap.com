@@ -25,10 +25,10 @@ class PageController extends Controller
      * @return \Illuminate\View\View
      */
     public function home() {
-//        if (Cache::has('homepage-data')) {
-//            $data = Cache::get('homepage-data');
-//            return view('welcome', $data);
-//        }
+        if (Cache::has('homepage-data')) {
+            $data = Cache::get('homepage-data');
+            return view('welcome', $data);
+        }
 
         $config = array();
         $config['cluster'] = true;

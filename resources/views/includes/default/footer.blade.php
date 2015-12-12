@@ -54,7 +54,7 @@
 <script src="https://js.pusher.com/2.2/pusher.min.js"></script>
 
 <script>
-    this.pusher = new Pusher("{!! env('PUSHER_KEY') !!}");
+    {{--this.pusher = new Pusher("{!! env('PUSHER_KEY') !!}");--}}
 
     var userActionChannel = pusher.subscribe('user');
 

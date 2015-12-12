@@ -157,7 +157,6 @@ return [
         Intervention\Image\ImageServiceProvider::class,
         Thomaswelton\LaravelGravatar\LaravelGravatarServiceProvider::class,
         Roumen\Feed\FeedServiceProvider::class,
-        Awjudd\FeedReader\FeedReaderServiceProvider::class,
         GrahamCampbell\GitHub\GitHubServiceProvider::class,
         Appitventures\Phpgmaps\PhpgmapsServiceProvider::class,
         AlfredoRamos\ParsedownExtra\ParsedownExtraServiceProvider::class,
@@ -174,13 +173,10 @@ return [
         PackageBackup\Watchable\ServiceProvider::class,
         PackageBackup\Taggable\ServiceProvider::class,
         PackageBackup\Questionable\ServiceProvider::class,
-        Fwartner\Printful\PrintfulServiceProvider::class,
         Mpociot\Teamwork\TeamworkServiceProvider::class,
         Artesaos\SEOTools\Providers\SEOToolsServiceProvider::class,
         Roumen\Sitemap\SitemapServiceProvider::class,
-        NotifyMeHQ\Laravel\NotifyMeServiceProvider::class,
         Chrisbjr\ApiGuard\Providers\ApiGuardServiceProvider::class,
-        Barryvdh\Cors\ServiceProvider::class,
 
     ],
 
@@ -242,14 +238,11 @@ return [
         'Twitter'   => Thujohn\Twitter\Facades\Twitter::class,
         'Gravatar'  => Thomaswelton\LaravelGravatar\Facades\Gravatar::class,
         'Feed'      => Roumen\Feed\Facades\Feed::class,
-        'FeedReader'=> Awjudd\FeedReader\Facades\FeedReader::class,
         'GitHub'    => GrahamCampbell\GitHub\Facades\GitHub::class,
         'Gmaps'     => Appitventures\Phpgmaps\Facades\Phpgmaps::class,
         'Markdown'  => AlfredoRamos\ParsedownExtra\Facades\ParsedownExtra::class,
         'SearchIndex' => Spatie\SearchIndex\SearchIndexFacade::class,
-        'Printful'  => Fwartner\Printful\Facades\PrintfulFacade::class,
         'SEO'       => Artesaos\SEOTools\Facades\SEOTools::class,
-        'NotifyMe'  => NotifyMeHQ\Laravel\Facades\NotifyMe::class,
 
     ],
 
