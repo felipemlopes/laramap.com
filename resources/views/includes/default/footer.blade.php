@@ -22,7 +22,7 @@
                             <a href="https://pusher.com"> <img src="{{ asset('images/pusher_logo_dark.png') }}" alt="" class="col-lg-2 img-responsive"></a>
                             <a href="https://www.algolia.com/?utm_source=laramap&utm_medium=link"><img src="{{ asset('images/Algolia_logo_bg-white.png') }}" alt="" class="col-lg-2 img-responsive"></a>
                             <a href="https://www.digitalocean.com"><img src="{{ asset('images/DO_Proudly_Hosted_Badge_Blue.png') }}" alt="" class="col-lg-3 img-responsive"></a>
-                            <a width="150" height="50" href="https://auth0.com/" target="_blank" alt="Single Sign On & Token Based Authentication - Auth0"><img width="150" height="50" alt="JWT Auth for open source projects" src="//cdn.auth0.com/oss/badges/a0-badge-dark.png" class="col-lg-2 img-responsive"/></a>
+                            <a href="https://auth0.com/" target="_blank" alt="Single Sign On & Token Based Authentication - Auth0"><img width="150" height="50" alt="JWT Auth for open source projects" src="//cdn.auth0.com/oss/badges/a0-badge-dark.png" class="col-lg-2 img-responsive"/></a>
                         </div>
 
                         <hr>
@@ -54,7 +54,7 @@
 <script src="https://js.pusher.com/2.2/pusher.min.js"></script>
 
 <script>
-    this.pusher = new Pusher("{!! env('PUSHER_KEY') !!}");
+    {{--this.pusher = new Pusher("{!! env('PUSHER_KEY') !!}");--}}
 
     var userActionChannel = pusher.subscribe('user');
 
