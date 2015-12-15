@@ -2,12 +2,12 @@
 
 namespace App\Providers;
 
-
 use App\Events\UserDeleted;
 use App\Events\UserRegistered;
 use App\User;
 use Illuminate\Support\Facades\Event;
 use Illuminate\Support\ServiceProvider;
+use View;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -25,6 +25,8 @@ class AppServiceProvider extends ServiceProvider
 //        User::deleted(function ($user) {
 //            Event::fire(new UserDeleted($user));
 //        });
+        View::addNamespace('parsedownextra',
+            base_path('resources/views/vendor/parsedownextra'));
     }
 
     /**
