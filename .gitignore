@@ -3,7 +3,6 @@
 Homestead.yaml
 Homestead.json
 .env
-/storage
 .idea/
 _ide_helper.php
 .env.example
@@ -11,3 +10,5 @@ _ide_helper.php
 .idea/vcs.xml
 .phpcomplete_extended/
 composer.lock
+/storage/database.sqlite
+/resources/views/vendor/sitemap/google-news.php
