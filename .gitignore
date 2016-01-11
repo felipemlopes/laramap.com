@@ -11,3 +11,4 @@ _ide_helper.php
 .phpcomplete_extended/
 composer.lock
 /storage/database.sqlite
+/resources/views/vendor/sitemap/google-news.php
