@@ -8,6 +8,6 @@
 @include('includes.default.footer')
 @include('sweet::alert')
 @include('includes.partials.errors')
-@include('parsedownextra::highlightjs-script')
+@include('vendor.parsedownextra.highlightjs-script')
 </body>
 </html>

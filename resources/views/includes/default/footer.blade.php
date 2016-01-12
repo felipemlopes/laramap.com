@@ -87,4 +87,4 @@
 @yield('scripts')
 @include('includes.partials.bug')
 
-@include('parsedownextra::highlightjs-init-jquery')
+@include('vendor.parsedownextra.highlightjs-init-jquery')
