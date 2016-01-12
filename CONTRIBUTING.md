@@ -36,7 +36,7 @@
     php artisan vendor:publish
     ```
 
-+ Migrate the database
++ Migrate the database, DB_CONNECTION is already set to `sqlite` in `.env`
 
     ```
     php artisan migrate

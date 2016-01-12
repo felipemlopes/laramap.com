@@ -3,12 +3,18 @@
 Homestead.yaml
 Homestead.json
 .env
+.env.example
+composer.lock
+
+### ignoring IDEs
 .idea/
 _ide_helper.php
-.env.example
 .idea/blade.xml
 .idea/vcs.xml
 .phpcomplete_extended/
-composer.lock
+
+### local development database
 /storage/database.sqlite
+
+### vendor assets
 /resources/views/vendor/sitemap/google-news.php

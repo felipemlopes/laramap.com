@@ -18,8 +18,8 @@
     <link rel="stylesheet" href="{{ elixir('css/app.css') }}">
     @yield('styles')
 
-    @include('parsedownextra::emojis-stylesheet')
-    @include('parsedownextra::highlightjs-stylesheet')
+    @include('vendor.parsedownextra.emojis-stylesheet')
+    @include('vendor.parsedownextra.highlightjs-stylesheet')
 
     {{--<script src="{{ asset('js/jquery.min.js') }}"></script>--}}
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
